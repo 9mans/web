@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead tr {
+            background-color: green;
+        }
+        th {
+            color: aqua;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>스타일이 적용된 테이블</h1>
+
+    <h3>직원 정보</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>아이디</th>
+                <th>이름</th>
+                <th>연락처</th>
+                <th>입사일</th>
+                <th>부서명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>김유신</td>
+                <td>010-1234-1234</td>
+                <td>2020년 12월 10일</td>
+                <td>영업 1팀</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>홍길동</td>
+                <td>010-2345-2345</td>
+                <td>2019년 01월 20일</td>
+                <td>영업 2팀</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>강감찬</td>
+                <td>010-4567-2345</td>
+                <td>2015년 02월 10일</td>
+                <td>재무팀 </td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>김유신</td>
+                <td>010-1234-1234</td>
+                <td>2020년 12월 10일</td>
+                <td>영업 1팀</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>홍길동</td>
+                <td>010-2345-2345</td>
+                <td>2019년 01월 20일</td>
+                <td>영업 2팀</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>강감찬</td>
+                <td>010-4567-2345</td>
+                <td>2015년 02월 10일</td>
+                <td>재무팀 </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
